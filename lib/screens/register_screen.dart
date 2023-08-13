@@ -51,6 +51,7 @@ class RegisterScreen extends StatelessWidget {
                   ),
 
                   CustomTextField(label: 'Password',
+                    isPassword: true,
                     controller: cubit.passwordController,
                   ),
 
